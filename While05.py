@@ -10,7 +10,7 @@ def main(s):
     i=0
     length=len(s)
     while length>i:
-        if s[i].islower()!=True:
+        if s[i].islower()==True:
             count+=1
         i+=1
     return count

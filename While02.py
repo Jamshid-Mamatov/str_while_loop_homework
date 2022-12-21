@@ -9,8 +9,8 @@ def main(s):
     count=0
     i=0
     length=len(s)
-    while length>1:
+    while length>i:
         if s[i].isalpha:
-            count+=1
+            count+=1    
         i+=1
     return count
