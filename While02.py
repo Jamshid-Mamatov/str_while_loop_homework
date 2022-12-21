@@ -10,7 +10,10 @@ def main(s):
     i=0
     length=len(s)
     while length>i:
-        if s[i].isalpha:
-            count+=1    
+        if s[i].isalpha():
+            count+=1
+            print(s[i])    
         i+=1
     return count
+
+print(main("Python 2022"))
