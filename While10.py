@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    sum=0
+    i=0
+    lenght=len(s)
+    while lenght>i:
+        if s[i].isdigit():
+            if int(s[i])%2==1:
+                sum+=int(s[i])
+
+        i+=1
+    return sum

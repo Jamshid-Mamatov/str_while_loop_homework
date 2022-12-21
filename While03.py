@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    count=0
+    i=0
+    length=len(s)
+    while length>i:
+        if s[i].isalnum()!=True:
+            count+=1
+        i+=1
+    return count
